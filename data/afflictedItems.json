@@ -1,0 +1,509 @@
+[
+  {
+    "id": 0,
+    "name": "Afflicted Bone",
+    "threatLevel": 1,
+    "imagePath": "../images/0.jpg",
+    "monsters": [
+      "Arzuros",
+      "Lagombi",
+      "Volvidon"
+    ],
+    "difficultyLevels": [
+      {
+        "item": "Afflicted Bone",
+        "minLevel": 1,
+        "maxLevel": 30
+      },
+      {
+        "item": "Afflicted Hardbone",
+        "minLevel": 31,
+        "maxLevel": 100
+      },
+      {
+        "item": "Afflicted Slogbone",
+        "minLevel": 101,
+        "maxLevel": 300
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Afflicted Pelt",
+    "threatLevel": 1,
+    "imagePath": "../images/1.jpg",
+    "monsters": [
+      "Great Baggi",
+      "Great Izuchi",
+      "Great Wroggi",
+      "Kulu-Ya-Ku"
+    ],
+    "difficultyLevels": [
+      {
+        "item": "Afflicted Pelt",
+        "minLevel": 1,
+        "maxLevel": 30
+      },
+      {
+        "item": "Afflicted Hide+",
+        "minLevel": 31,
+        "maxLevel": 100
+      },
+      {
+        "item": "Afflicted Thickhide",
+        "minLevel": 101,
+        "maxLevel": 300
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Afflicted Blood",
+    "threatLevel": 2,
+    "imagePath": "../images/2.jpg",
+    "monsters": [
+      "Bishaten",
+      "Daimyo Hermitaur",
+      "Khezu",
+      "Tetranadon"
+    ],
+    "difficultyLevels": [
+      {
+        "item": "Afflicted Blood",
+        "minLevel": 1,
+        "maxLevel": 30
+      },
+      {
+        "item": "Afflicted Dragon Blood",
+        "minLevel": 31,
+        "maxLevel": 100
+      },
+      {
+        "item": "Afflicted Pure Blood",
+        "minLevel": 101,
+        "maxLevel": 300
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Afflicted Monster Bone",
+    "threatLevel": 2,
+    "imagePath": "../images/3.jpg",
+    "monsters": [
+      "Aknosom",
+      "Barroth",
+      "Basarios",
+      "Royal Ludroth"
+    ],
+    "difficultyLevels": [
+      {
+        "item": "Afflicted Monster Bone",
+        "minLevel": 1,
+        "maxLevel": 30
+      },
+      {
+        "item": "Afflicted Monster Hardbone",
+        "minLevel": 31,
+        "maxLevel": 100
+      },
+      {
+        "item": "Afflicted Monster Slogbone",
+        "minLevel": 101,
+        "maxLevel": 300
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Afflicted Shell",
+    "threatLevel": 3,
+    "imagePath": "../images/4.jpg",
+    "monsters": [
+      "Blood Orange Bishaten",
+      "Jyuratodus",
+      "Shogun Ceanataur",
+      "Somnacanth"
+    ],
+    "difficultyLevels": [
+      {
+        "item": "Afflicted Shell",
+        "minLevel": 1,
+        "maxLevel": 30
+      },
+      {
+        "item": "Afflicted Carapace",
+        "minLevel": 31,
+        "maxLevel": 100
+      },
+      {
+        "item": "Afflicted Cortex",
+        "minLevel": 101,
+        "maxLevel": 300
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Afflicted Scale",
+    "threatLevel": 3,
+    "imagePath": "../images/5.jpg",
+    "monsters": [
+      "Anjanath",
+      "Pukei-Pukei",
+      "Rathian",
+      "Tobi Kadachi"
+    ],
+    "difficultyLevels": [
+      {
+        "item": "Afflicted Scale",
+        "minLevel": 1,
+        "maxLevel": 30
+      },
+      {
+        "item": "Afflicted Scale+",
+        "minLevel": 31,
+        "maxLevel": 100
+      },
+      {
+        "item": "Afflicted Shard",
+        "minLevel": 101,
+        "maxLevel": 300
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Afflicted Claw",
+    "threatLevel": 4,
+    "imagePath": "../images/6.jpg",
+    "monsters": [
+      "Almudron",
+      "Aurora Somnacanth",
+      "Goss Harag",
+      "Rakna-Kadaki"
+    ],
+    "difficultyLevels": [
+      {
+        "item": "Afflicted Claw",
+        "minLevel": 1,
+        "maxLevel": 30
+      },
+      {
+        "item": "Afflicted Claw+",
+        "minLevel": 31,
+        "maxLevel": 100
+      },
+      {
+        "item": "Afflicted Hardclaw",
+        "minLevel": 101,
+        "maxLevel": 300
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Afflicted Fang",
+    "threatLevel": 4,
+    "imagePath": "../images/7.jpg",
+    "monsters": [
+      "Barioth",
+      "Garangolm",
+      "Magnamalo",
+      "Nargacuga"
+    ],
+    "difficultyLevels": [
+      {
+        "item": "Afflicted Fang",
+        "minLevel": 1,
+        "maxLevel": 30
+      },
+      {
+        "item": "Afflicted Fang+",
+        "minLevel": 31,
+        "maxLevel": 100
+      },
+      {
+        "item": "Afflicted Hardfang",
+        "minLevel": 101,
+        "maxLevel": 300
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Afflicted Dire Scale",
+    "threatLevel": 5,
+    "imagePath": "../images/8.jpg",
+    "monsters": [
+      "Astalos",
+      "Mizutsune",
+      "Rathalos"
+    ],
+    "difficultyLevels": [
+      {
+        "item": "Afflicted Dire Scale",
+        "minLevel": 51,
+        "maxLevel": 100
+      },
+      {
+        "item": "Afflicted Dire Scale+",
+        "minLevel": 101,
+        "maxLevel": 160
+      },
+      {
+        "item": "Afflicted Dire Shard",
+        "minLevel": 161,
+        "maxLevel": 300
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Afflicted Dire Bone",
+    "threatLevel": 5,
+    "imagePath": "../images/9.jpg",
+    "monsters": [
+      "Lunagaron",
+      "Magma Almudron",
+      "Tigrex"
+    ],
+    "difficultyLevels": [
+      {
+        "item": "Afflicted Dire Bone",
+        "minLevel": 51,
+        "maxLevel": 100
+      },
+      {
+        "item": "Afflicted Dire Hardbone",
+        "minLevel": 101,
+        "maxLevel": 160
+      },
+      {
+        "item": "Afflicted Dire Slogbone",
+        "minLevel": 161,
+        "maxLevel": 300
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Afflicted Dire Horn",
+    "threatLevel": 5,
+    "imagePath": "../images/10.jpg",
+    "monsters": [
+      "Diablos",
+      "Seregios",
+      "Zinogre"
+    ],
+    "difficultyLevels": [
+      {
+        "item": "Afflicted Dire Horn",
+        "minLevel": 51,
+        "maxLevel": 100
+      },
+      {
+        "item": "Afflicted Dire Horn+",
+        "minLevel": 101,
+        "maxLevel": 160
+      },
+      {
+        "item": "Afflicted Dire Hardhorn",
+        "minLevel": 161,
+        "maxLevel": 300
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Afflicted Dire Shell",
+    "threatLevel": 6,
+    "imagePath": "../images/11.jpg",
+    "monsters": [
+      "Bazelgeuse",
+      "Espinas",
+      "Gore Magala"
+    ],
+    "difficultyLevels": [
+      {
+        "item": "Afflicted Dire Shell",
+        "minLevel": 71,
+        "maxLevel": 110
+      },
+      {
+        "item": "Afflicted Dire Carapace",
+        "minLevel": 111,
+        "maxLevel": 180
+      },
+      {
+        "item": "Afflicted Dire Cortex",
+        "minLevel": 181,
+        "maxLevel": 300
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Afflicted Dire Claw",
+    "threatLevel": 6,
+    "imagePath": "../images/12.jpg",
+    "monsters": [
+      "Pyra Rakna Kadaki",
+      "Rajang"
+    ],
+    "difficultyLevels": [
+      {
+        "item": "Afflicted Dire Claw",
+        "minLevel": 71,
+        "maxLevel": 110
+      },
+      {
+        "item": "Afflicted Dire Claw+",
+        "minLevel": 111,
+        "maxLevel": 180
+      },
+      {
+        "item": "Afflicted Dire Hardclaw",
+        "minLevel": 181,
+        "maxLevel": 300
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Afflicted Dire Wing",
+    "threatLevel": 7,
+    "imagePath": "../images/13.jpg",
+    "monsters": [
+      "Gold Rathian",
+      "Silver Rathalos"
+    ],
+    "difficultyLevels": [
+      {
+        "item": "Afflicted Dire Wing",
+        "minLevel": 91,
+        "maxLevel": 140
+      },
+      {
+        "item": "Afflicted Dire Wing+",
+        "minLevel": 141,
+        "maxLevel": 200
+      },
+      {
+        "item": "Afflicted Dire Fellwing",
+        "minLevel": 201,
+        "maxLevel": 300
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Afflicted Dire Fang",
+    "threatLevel": 7,
+    "imagePath": "../images/14.jpg",
+    "monsters": [
+      "Furious Rajang",
+      "Scorned Magnamalo"
+    ],
+    "difficultyLevels": [
+      {
+        "item": "Afflicted Dire Fang",
+        "minLevel": 91,
+        "maxLevel": 140
+      },
+      {
+        "item": "Afflicted Dire Fang+",
+        "minLevel": 141,
+        "maxLevel": 200
+      },
+      {
+        "item": "Afflicted Dire Hardfang",
+        "minLevel": 201,
+        "maxLevel": 300
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Afflicted Dire Blood",
+    "threatLevel": 7,
+    "imagePath": "../images/15.jpg",
+    "monsters": [
+      "Chaotic Gore Magala",
+      "Flaming Espinas",
+      "Seething Bazelgeuse"
+    ],
+    "difficultyLevels": [
+      {
+        "item": "Afflicted Dire Blood",
+        "minLevel": 91,
+        "maxLevel": 140
+      },
+      {
+        "item": "Afflicted Dire Dragon Blood",
+        "minLevel": 141,
+        "maxLevel": 200
+      },
+      {
+        "item": "Afflicted Dire Darkblood",
+        "minLevel": 201,
+        "maxLevel": 300
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Risen Dragon Bone",
+    "threatLevel": 8,
+    "imagePath": "../images/16.jpg",
+    "monsters": [
+      "Risen Chameleos",
+      "Risen Kushala Daora",
+      "Risen Teostra"
+    ],
+    "difficultyLevels": [
+      {
+        "item": "Risen Dragon Bone",
+        "minLevel": 111,
+        "maxLevel": 160
+      },
+      {
+        "item": "Risen Dragon Bone+",
+        "minLevel": 161,
+        "maxLevel": 220
+      },
+      {
+        "item": "Risen Slogbone",
+        "minLevel": 221,
+        "maxLevel": 300
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Risen Dragon Blood",
+    "threatLevel": 9,
+    "imagePath": "../images/17.jpg",
+    "monsters": [
+      "Risen Crimson Glow Valstrax",
+      "Risen Shagaru Magala"
+    ],
+    "difficultyLevels": [
+      {
+        "item": "Risen Dragon Blood",
+        "minLevel": 131,
+        "maxLevel": 200
+      },
+      {
+        "item": "Risen Dragon Pureblood",
+        "minLevel": 201,
+        "maxLevel": 240
+      },
+      {
+        "item": "Risen Dragon Thickblood",
+        "minLevel": 241,
+        "maxLevel": 300
+      }
+    ]
+  }
+]
