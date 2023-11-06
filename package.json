@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/index.js",
     "commands": "node src/command-register.js",
-    "delete": "node src/delete-commands.js",
+    "commands-global": "node src/command-register-global.js",
     "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
