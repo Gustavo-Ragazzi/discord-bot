@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "name": "Afflicted Bone",
+    "name": "Afflicted Bone | Afflicted Hardbone | Afflicted Hardbone",
     "threatLevel": 1,
     "imagePath": "https://media.discordapp.net/attachments/1170881350782431282/1170881821064564736/0.jpg?ex=655aa7ac&is=654832ac&hm=d6ea3563bfa24fbfc1936762e7cf26c8aa35826d06c35649d3cf7822d027769a&=",
     "monsters": [
@@ -21,7 +21,7 @@
         "maxLevel": 100
       },
       {
-        "item": "Afflicted Slogbone",
+        "item": "Afflicted Hardbone",
         "minLevel": 101,
         "maxLevel": 300
       }
@@ -29,7 +29,7 @@
   },
   {
     "id": 1,
-    "name": "Afflicted Pelt",
+    "name": "Afflicted Pelt | Afflicted Hide+ | Afflicted Thickhide",
     "threatLevel": 1,
     "imagePath": "https://media.discordapp.net/attachments/1170881350782431282/1170881831273500703/1.jpg?ex=655aa7ae&is=654832ae&hm=50142f78dd8c53d4a5e1cb86d999e0bc1fccf11fd43dddf3d91d9f3fe4aa6191&=",
     "monsters": [
@@ -58,7 +58,7 @@
   },
   {
     "id": 2,
-    "name": "Afflicted Blood",
+    "name": "Afflicted Blood | Afflicted Dragon Blood | Afflicted Pure Blood",
     "threatLevel": 2,
     "imagePath": "https://media.discordapp.net/attachments/1170881350782431282/1170881840614227978/2.jpg?ex=655aa7b0&is=654832b0&hm=514308979a046e8ef130eaddd2321777f5baac7277bf3d36e14a195f1325015a&=",
     "monsters": [
@@ -87,7 +87,7 @@
   },
   {
     "id": 3,
-    "name": "Afflicted Monster Bone",
+    "name": "Afflicted Monster Bone | Afflicted Monster Hardbone | Afflicted Monster Slogbone",
     "threatLevel": 2,
     "imagePath": "https://media.discordapp.net/attachments/1170881350782431282/1170881853700448356/3.jpg?ex=655aa7b3&is=654832b3&hm=b0d9365159117f676a8e771637fd34bd275e12f704209c7320f4bf8c333c7bec&=",
     "monsters": [
@@ -116,7 +116,7 @@
   },
   {
     "id": 4,
-    "name": "Afflicted Shell",
+    "name": "Afflicted Shell | Afflicted Carapace | Afflicted Cortex",
     "threatLevel": 3,
     "imagePath": "https://media.discordapp.net/attachments/1170881350782431282/1170881855973752976/4.jpg?ex=655aa7b4&is=654832b4&hm=7b983890834033db31aa2a9ec02534ddf511b5f3c22a710bf600e7dedb54c21c&=",
     "monsters": [
@@ -145,7 +145,7 @@
   },
   {
     "id": 5,
-    "name": "Afflicted Scale",
+    "name": "Afflicted Scale | Afflicted Scale+ | Afflicted Shard",
     "threatLevel": 3,
     "imagePath": "https://media.discordapp.net/attachments/1170881350782431282/1170881862894370836/5.jpg?ex=655aa7b6&is=654832b6&hm=5d4ae6067f63e144b8f76e7190a35ebf5ff645df0957608903c35d5ae723064c&=",
     "monsters": [
@@ -174,7 +174,7 @@
   },
   {
     "id": 6,
-    "name": "Afflicted Claw",
+    "name": "Afflicted Claw | Afflicted Claw+ | Afflicted Hardclaw",
     "threatLevel": 4,
     "imagePath": "https://media.discordapp.net/attachments/1170881350782431282/1170881873929568377/6.jpg?ex=655aa7b8&is=654832b8&hm=cd4067d956c86d150dee1bab5ba2aa773b6086a849d7ad2e101bd6385e92ef50&=",
     "monsters": [
@@ -203,7 +203,7 @@
   },
   {
     "id": 7,
-    "name": "Afflicted Fang",
+    "name": "Afflicted Fang | Afflicted Fang+ | Afflicted Hardfang",
     "threatLevel": 4,
     "imagePath": "https://media.discordapp.net/attachments/1170881350782431282/1170881884641820752/7.jpg?ex=655aa7bb&is=654832bb&hm=6ac4186c8993294f53f22241036de7ba0de2aacb19f8eef56aee029fabdcc408&=",
     "monsters": [
@@ -232,7 +232,7 @@
   },
   {
     "id": 8,
-    "name": "Afflicted Dire Scale",
+    "name": "Afflicted Dire Scale | Afflicted Dire Scale+ | Afflicted Dire Shard",
     "threatLevel": 5,
     "imagePath": "https://media.discordapp.net/attachments/1170881350782431282/1170881891071697036/8.jpg?ex=655aa7bc&is=654832bc&hm=2dc75ccb221a40a9f106e8a0d9a8d0b38238b13c8e969675e6a969a1294356e0&=",
     "monsters": [
@@ -260,7 +260,7 @@
   },
   {
     "id": 9,
-    "name": "Afflicted Dire Bone",
+    "name": "Afflicted Dire Bone | Afflicted Dire Hardbone | Afflicted Dire Slogbone",
     "threatLevel": 5,
     "imagePath": "https://media.discordapp.net/attachments/1170881350782431282/1170881896415232170/9.jpg?ex=655aa7be&is=654832be&hm=98fffb5d8cbbe73086557af9d375da954428505b9debc1b8d948048f4b7aaa7a&=",
     "monsters": [
@@ -288,7 +288,7 @@
   },
   {
     "id": 10,
-    "name": "Afflicted Dire Horn",
+    "name": "Afflicted Dire Horn | Afflicted Dire Horn+ | Afflicted Dire Hardhorn",
     "threatLevel": 5,
     "imagePath": "https://media.discordapp.net/attachments/1170881350782431282/1170881903029665872/10.jpg?ex=655aa7bf&is=654832bf&hm=57353cdf21a29acaed2db1f12af332becc87711316c2373337ad0afa0d4e6d5c&=",
     "monsters": [
@@ -316,7 +316,7 @@
   },
   {
     "id": 11,
-    "name": "Afflicted Dire Shell",
+    "name": "Afflicted Dire Shell | Afflicted Dire Carapace | Afflicted Dire Cortex",
     "threatLevel": 6,
     "imagePath": "https://media.discordapp.net/attachments/1170881350782431282/1170881911057551391/11.jpg?ex=655aa7c1&is=654832c1&hm=6a0d185b74d87d9e3a03629224c138d23c6fa5310a691a3e66ff5699c8f6aeb0&=",
     "monsters": [
@@ -344,7 +344,7 @@
   },
   {
     "id": 12,
-    "name": "Afflicted Dire Claw",
+    "name": "Afflicted Dire Claw | Afflicted Dire Claw+ | Afflicted Hardclaw",
     "threatLevel": 6,
     "imagePath": "https://media.discordapp.net/attachments/1170881350782431282/1170881916585656420/12.jpg?ex=655aa7c2&is=654832c2&hm=091bae8c4a25b47109dab1cf9fcffcfcf19a005005d07ad9c0386b5da3614f09&=",
     "monsters": [
@@ -371,7 +371,7 @@
   },
   {
     "id": 13,
-    "name": "Afflicted Dire Wing",
+    "name": "Afflicted Dire Wing | Afflicted Dire Wing+ | Afflicted Dire Fellwing",
     "threatLevel": 7,
     "imagePath": "https://media.discordapp.net/attachments/1170881350782431282/1170881924420603975/13.jpg?ex=655aa7c4&is=654832c4&hm=c6a511ec00e795a4c9ac670eb8e18f3df7d3757c1648aa4e0e5949ed7df67388&=",
     "monsters": [
@@ -398,7 +398,7 @@
   },
   {
     "id": 14,
-    "name": "Afflicted Dire Fang",
+    "name": "Afflicted Dire Fang | Afflicted Dire Fang+ | Afflicted Dire Hardfang",
     "threatLevel": 7,
     "imagePath": "https://media.discordapp.net/attachments/1170881350782431282/1170881930049359942/14.jpg?ex=655aa7c6&is=654832c6&hm=0efa7b1908d88e4085d923e9c2aeb67565852ad968032473d303130030113757&=",
     "monsters": [
@@ -425,7 +425,7 @@
   },
   {
     "id": 15,
-    "name": "Afflicted Dire Blood",
+    "name": "Afflicted Dire Blood | Afflicted Dire Dragon Blood | Afflicted Dire Darkblood",
     "threatLevel": 7,
     "imagePath": "https://media.discordapp.net/attachments/1170881350782431282/1170881936533758012/15.jpg?ex=655aa7c7&is=654832c7&hm=be330e8d854c5082e1c18c5257933cf8039a1b4d5d207a32826a59a67188266e&=",
     "monsters": [
@@ -453,7 +453,7 @@
   },
   {
     "id": 16,
-    "name": "Risen Dragon Bone",
+    "name": "Risen Dragon Bone | Risen Dragon Bone+ | Risen Slogbone",
     "threatLevel": 8,
     "imagePath": "https://media.discordapp.net/attachments/1170881350782431282/1170881941210419300/16.jpg?ex=655aa7c8&is=654832c8&hm=94042a14e133e14856de9c535b4b1117ddfba7a429facd9b6b0688963942987b&=",
     "monsters": [
@@ -481,7 +481,7 @@
   },
   {
     "id": 17,
-    "name": "Risen Dragon Blood",
+    "name": "Risen Dragon Blood | Risen Dragon Pureblood | Risen Dragon Thickblood",
     "threatLevel": 9,
     "imagePath": "https://media.discordapp.net/attachments/1170881350782431282/1170881948160372836/17.jpg?ex=655aa7ca&is=654832ca&hm=dbc09aa89d5b75fa0f0fa37629dd2570d2d7822f72f1f4b89c9598ff6ac9bf9d&=",
     "monsters": [

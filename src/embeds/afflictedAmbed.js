@@ -1,21 +1,18 @@
 const { EmbedBuilder } = require('discord.js')
 
-const afflictedAmbed = (item, imagePath, monsters, minLevel, maxLevel, threatLevel) => {
-  const lowLevelIcon = ':arrow_down:'
-  const highLevelIcon = ':arrow_up: '
+const afflictedAmbed = (itemData) => {
   const starIcon = '★'
 
   return new EmbedBuilder()
     .setColor(0x0099FF)
-    .setTitle(item)
-    .setImage(imagePath)
+    .setTitle(`A${itemData.threatLevel}${starIcon} | ${itemData.difficultyLevels[0].item} Family`)
     .addFields(
-      { name: 'Min Level', value: `${lowLevelIcon} **${minLevel}**`, inline: true },
-      { name: 'Max Level ', value: `${highLevelIcon} **${maxLevel}**`, inline: true },
-      { name: '\n', value: '\n' },
-      { name: `**A${threatLevel}${starIcon}** | Monsters`, value: monsters }
+      { name: itemData.difficultyLevels[0].item, value: `Min: ${itemData.difficultyLevels[0].minLevel} | Max: ${itemData.difficultyLevels[0].maxLevel}`, inline: true },
+      { name: itemData.difficultyLevels[1].item, value: `Min: ${itemData.difficultyLevels[1].minLevel} | Max: ${itemData.difficultyLevels[1].maxLevel}`, inline: true },
+      { name: itemData.difficultyLevels[2].item, value: `Min: ${itemData.difficultyLevels[2].minLevel} | Max: ${itemData.difficultyLevels[2].maxLevel}`, inline: true }
     )
-    .setTimestamp()
+    .setImage(itemData.imagePath)
+    .setFooter({ text: itemData.monsters.join(', ') })
 }
 
 module.exports = afflictedAmbed
