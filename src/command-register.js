@@ -19,6 +19,10 @@ const commands = [
         required: true
       }
     ]
+  },
+  {
+    name: 'backup-kelbi',
+    description: 'Send a backup of the kelbi database'
   }
 ]
 
