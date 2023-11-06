@@ -1,7 +1,7 @@
 const getAfflictedItemList = () => {
-  const afflictedList = require('../../data/afflictedItems.json')
-  const afflictedItemNameList = afflictedList.map(item => item.name)
-  const afflictedItemChoicesObject = afflictedItemNameList.map(item => {
+  const afflictedList = require('../../assets/afflictedItems.json')
+  const allDifficultyItems = afflictedList.flatMap(item => item.difficultyLevels.map(level => level.item))
+  const afflictedItemChoicesObject = allDifficultyItems.map(item => {
     return { name: item, value: item }
   })
 
