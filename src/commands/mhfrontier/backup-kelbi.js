@@ -3,7 +3,7 @@ const { exec } = require('child_process')
 const fs = require('fs')
 const AdmZip = require('adm-zip')
 const pool = require('../../utils/dbConnection')
-const bcrypt = require('bcrypt')
+const bcrypt = require('bcryptjs')
 const backupFileName = `kelbi_${new Date().toISOString().slice(0, 10)}.sql`
 
 module.exports = {
@@ -54,6 +54,7 @@ module.exports = {
               }
             }, 20000)
           } else {
+            console.error(error)
             interaction.editReply('Fail to get backup!')
           }
         })
@@ -61,6 +62,7 @@ module.exports = {
         interaction.editReply('Invalid user or not a dev')
       }
     } catch (error) {
+      console.error(error)
       interaction.editReply('Unexpected error trying to get backup!')
     }
   }
