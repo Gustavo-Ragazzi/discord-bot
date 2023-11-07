@@ -18,6 +18,7 @@
     "bcryptjs": "^2.4.3",
     "discord.js": "^14.13.0",
     "dotenv": "^16.3.1",
+    "nodemailer": "^6.9.7",
     "nodemon": "^3.0.1",
     "pg": "^8.11.3"
   },

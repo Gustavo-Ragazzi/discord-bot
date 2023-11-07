@@ -1,6 +1,5 @@
 require('dotenv').config()
 const { REST, Routes, ApplicationCommandOptionType } = require('discord.js')
-// const getAfflictedItemList = require('./utils/getAfflictedItemList')
 
 const commands = [
   {

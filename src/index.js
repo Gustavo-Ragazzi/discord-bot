@@ -1,8 +1,7 @@
 const fs = require('node:fs')
 const path = require('node:path')
 const { Client, Collection, GatewayIntentBits } = require('discord.js')
-const dotenv = require('dotenv')
-dotenv.config()
+require('dotenv').config()
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] })
 

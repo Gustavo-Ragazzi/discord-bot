@@ -1,7 +1,7 @@
 const { SlashCommandBuilder } = require('discord.js')
 const { exec } = require('child_process')
-const fs = require('fs')
 const AdmZip = require('adm-zip')
+const email = require('../../utils/backupKelbiEmail')
 const pool = require('../../utils/dbConnection')
 const bcrypt = require('bcryptjs')
 const backupFileName = `kelbi_${new Date().toISOString().slice(0, 10)}.sql`
@@ -27,12 +27,6 @@ module.exports = {
     try {
       const authLogin = await userIsDev(loginInput, passwordInput)
 
-      // Discord can't take questlist data becase 8MB limite
-      if (blacklistInput) {
-        interaction.editReply('File too big :/')
-        return
-      }
-
       if (authLogin) {
         exec(cmd, (error) => {
           if (!error) {
@@ -40,19 +34,16 @@ module.exports = {
             zip.addLocalFile(backupFileName)
             zip.writeZip(zipFileName)
 
-            interaction.editReply({
-              content: 'Backup was done successfully!',
-              files: [zipFileName]
-            })
-
-            setTimeout(() => {
-              if (backupFileName) {
-                fs.unlinkSync(backupFileName)
-              }
-              if (zipFileName) {
-                fs.unlinkSync(zipFileName)
-              }
-            }, 20000)
+            // Discord AND outlook can't take questlist data becase 8MB limite
+            if (blacklistInput) {
+              interaction.editReply('The file exceeds the 8MB limit.')
+            } else {
+              interaction.editReply({
+                content: 'Backup was done successfully! Also sending it by email',
+                files: [zipFileName]
+              })
+              email(zipFileName, blacklistInput)
+            }
           } else {
             console.error(error)
             interaction.editReply('Fail to get backup!')
