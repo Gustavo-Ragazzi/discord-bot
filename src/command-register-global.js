@@ -20,6 +20,30 @@ const commands = [
         required: true
       }
     ]
+  },
+  {
+    name: 'backup-kelbi',
+    description: 'Send a backup of the kelbi database',
+    options: [
+      {
+        name: 'login',
+        description: 'Your ingame login',
+        type: ApplicationCommandOptionType.String,
+        required: true
+      },
+      {
+        name: 'password',
+        description: 'Your ingame password',
+        type: ApplicationCommandOptionType.String,
+        required: true
+      },
+      {
+        name: 'blacklist',
+        description: 'Should you backup quests and questlists?',
+        type: ApplicationCommandOptionType.Boolean,
+        required: true
+      }
+    ]
   }
 ]
 

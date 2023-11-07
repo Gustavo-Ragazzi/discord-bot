@@ -13,6 +13,7 @@ module.exports = {
     }
 
     try {
+      console.log(`[${interaction.commandName.toUpperCase()}] User: ${interaction.user.username} Guild: ${interaction.guild.name}`)
       await command.execute(interaction)
     } catch (error) {
       console.error(`Error executing ${interaction.commandName}`)
