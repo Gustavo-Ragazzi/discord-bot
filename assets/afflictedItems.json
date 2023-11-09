@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "name": "Afflicted Bone | Afflicted Hardbone | Afflicted Hardbone",
+    "name": "Afflicted Bone | Afflicted Hardbone | Afflicted Slogbone",
     "threatLevel": 1,
     "imagePath": "https://media.discordapp.net/attachments/1170881350782431282/1170881821064564736/0.jpg?ex=655aa7ac&is=654832ac&hm=d6ea3563bfa24fbfc1936762e7cf26c8aa35826d06c35649d3cf7822d027769a&=",
     "monsters": [
@@ -21,7 +21,7 @@
         "maxLevel": 100
       },
       {
-        "item": "Afflicted Hardbone",
+        "item": "Afflicted Slogbone",
         "minLevel": 101,
         "maxLevel": 300
       }
